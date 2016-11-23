@@ -1,0 +1,100 @@
+/*--------------------------------  TOP BAR ----------------------------------------*/
+
+.loginReg{
+	background-color: black;
+
+}
+.loginReg:hover {
+    background-color: grey;
+}
+.top-bar ul li {
+	background-color: white;
+	color: red;
+}
+.top-bar{
+	background-color: white;
+	border-bottom: 1px solid #e8e8e8;
+}
+.menu a{
+	color: black;
+}
+
+.dropdown-pane{
+	display: block;
+	width: 100%;
+}
+.collection{
+	border-bottom: 1px solid black; 
+	padding-left: 35px;
+	color: black;
+}
+
+.top-ul ul {
+	margin-bottom: 2px;
+}
+.top-ul li{
+  list-style: none;
+}
+.top-ul li a:hover{
+	color :grey;
+	border-bottom: solid 1px grey;
+}
+.modal-a{
+	color:black;
+}
+.modal-a:hover{
+	color: grey;
+}
+.top-bar-item:hover{
+	color: grey;
+}
+.inscription:hover{
+	color: grey;
+	border-bottom: 1px solid grey;
+}
+
+.img-with-text {
+    text-align: center;
+    
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
+
+.password-head{
+	padding-bottom: 10px;
+	border-bottom: 1px solid grey;
+}
+
+
+/*-------------------------------- MAIN ----------------------------------------*/
+
+
+
+
+
+/*-------------------------------- FOOTER ----------------------------------------*/
+ 
+ .footer{
+ 	background-color: black;
+ 	margin-top: 570px;
+ }
+ .copywrite{
+ 	color: #c8c8c8;
+ }
+ #comp{
+ 	color: white;
+ }
+ .footer a{
+ 	color: #c8c8c8;
+ }
+ .footer a:hover{
+ 	color: white;
+ }
+
+ .footer ul{
+ 	padding-top: 18px;
+ }
+

@@ -1,0 +1,366 @@
+/*--------------------------------  TOP BAR ----------------------------------------*/
+
+.loginReg{
+    background-color: black;
+
+}
+.loginReg:hover {
+    background-color: grey;
+}
+.top-bar ul li {
+    background-color: white;
+    color: red;
+}
+.top-bar{
+    background-color: white;
+    border-bottom: 1px solid #e8e8e8;
+}
+.menu a{
+    color: black;
+}
+
+.dropdown-pane{
+    display: block;
+    width: 100%;
+}
+.collection{
+    border-bottom: 1px solid black; 
+    padding-left: 35px;
+    color: black;
+}
+
+.top-ul ul {
+    margin-bottom: 2px;
+}
+.top-ul li{
+  list-style: none;
+}
+.top-ul li a:hover{
+    color :grey;
+    border-bottom: solid 1px grey;
+}
+.modal-a{
+    color:black;
+}
+.modal-a:hover{
+    color: grey;
+}
+.top-bar-item:hover{
+    color: grey;
+}
+.inscription:hover{
+    color: grey;
+    border-bottom: 1px solid grey;
+}
+
+.img-with-text {
+    text-align: center;
+    
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
+
+.password-head{
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+}
+
+
+
+/*-------------------------------- MAIN ----------------------------------------*/
+
+a.main{
+	color: black;
+}
+a.main:hover{
+	color: grey;
+}
+
+.column a{
+	color: black;
+}
+img.zoom{
+	cursor: crosshair;
+}
+
+.back{
+    font-size: 14px;
+    color: black;
+}
+.back:hover{
+    color: grey;
+}
+.content-back{
+    margin-bottom: 10px;
+}
+
+/*----------- DESCRIPTION-------------*/
+
+#price{
+	margin-top: -5px;
+}
+
+#refno{
+	font-size: 15px;
+	color: #999;
+}
+#description{
+	margin-left: 15px;
+}
+
+.accordion{
+	margin-top: 20px;
+	border-left: none;
+	border-right: none;
+}
+
+.accordion-content{
+	font-size: 10px;
+	background-color: white;
+
+}
+
+.accordion-content p{
+	margin-bottom: 10px;
+}
+
+.accordion-title{
+	color: black;
+	background-color: white;
+}
+.accordion-title:focus{
+	color: black;
+	background-color: white;
+}
+.accordion-title:hover{
+	color: black;
+	background-color: white;
+}
+
+#btnSubmit{
+	background-color: black
+}
+#btnSubmit:hover{
+	background-color: grey;
+}
+
+#service-dropdown{
+	width: 25%;
+}
+.dropdown-content{
+	font-size: 10px;
+}
+#info-service{
+	color: black;
+	cursor: pointer;
+	font-size: 12px;
+}
+#info-service:hover{
+   color: grey;
+}
+
+#shipping-dropdown{
+    width: 25%;
+}
+
+#info-ship{
+    color: black;
+    cursor: pointer;
+    font-size: 12px;
+}
+#info-ship:hover{
+   color: grey;
+}
+
+.underline{
+	text-decoration: underline;
+}
+
+.size-guide{
+	color: black;
+	font-size: 12px;
+	margin-top: 30px;
+}
+.size-guide:hover{
+	color: grey;
+}
+
+#sizeModal{
+	width: 400px;
+	height: 500px;
+	background-image: url("../img/size-guide.PNG");
+}
+#img1Modal{
+	width: 600px;
+	height: 600px;
+	/*background-image: url("../img/article2z (1).jpg");*/
+}
+#img2Modal{
+    width: 600px;
+    height: 600px;
+    /*background-image: url("../img/article2z (2).jpg");*/
+}
+#img3Modal{
+    width: 600px;
+    height: 600px;
+    /*background-image: url("../img/article2z (3).jpg");*/
+}
+#img4Modal{
+    width: 600px;
+    height: 600px;
+    /*background-image: url("../img/article2z (4).jpg");*/
+}
+
+input, label {
+    cursor: pointer;
+}
+
+ /*----------- RADIO BUTTONS COLORS -------------*/
+
+
+
+.red input[type='radio']:before {
+    width: 16px;
+    height: 16px;
+    border-radius: 15px;
+    left: -1px;
+    position: relative;
+    background-color: #66656b;
+    content:'';
+    display: inline-block;
+    visibility: visible;
+}
+
+.red input[type='radio']:checked:after {
+    width: 17px;
+    height: 17px;
+    border-radius: 15px;
+    top: -20px;
+    left: -1px;
+    position: relative;
+    background-color: #66656b;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 1px solid black;
+}
+.black input[type='radio']:before {
+    width: 16px;
+    height: 16px;
+    border-radius: 15px;
+    left: -1px;
+    position: relative;
+    background-color: #aab8d3;
+    content:'';
+    display: inline-block;
+    visibility: visible;
+}
+
+.black input[type='radio']:checked:after {
+    width: 17px;
+    height: 17px;
+    border-radius: 15px;
+    top: -20px;
+    left: -1px;
+    position: relative;
+    background-color: #aab8d3;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 1px solid black;
+}
+.blue input[type='radio']:before {
+    width: 16px;
+    height: 16px;
+    border-radius: 15px;
+    left: -1px;
+    position: relative;
+    background-color: #353857;
+    content:'';
+    display: inline-block;
+    visibility: visible;
+}
+
+.blue input[type='radio']:checked:after {
+    width: 17px;
+    height: 17px;
+    border-radius: 15px;
+    top: -20px;
+    left: -1px;
+    position: relative;
+    background-color: #353857;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 1px solid black;
+}
+.green input[type='radio']:before {
+    width: 16px;
+    height: 16px;
+    border-radius: 15px;
+    left: -1px;
+    position: relative;
+    background-color: #eeedeb;
+    content:'';
+    display: inline-block;
+    visibility: visible;
+}
+
+.green input[type='radio']:checked:after {
+    width: 17px;
+    height: 17px;
+    border-radius: 15px;
+    top: -20px;
+    left: -1px;
+    position: relative;
+    background-color: #eeedeb;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 1px solid black;
+}
+
+/*----------- RADIO BUTTONS SIZE -------------*/
+
+.size input[type=radio] {
+    display:none; 
+    
+}
+
+.size input[type=radio] + label {
+    display:inline-block;
+    margin-right:-1px;
+}
+
+.size input[type=radio]:checked + label { 
+    border-bottom: 2px solid black;
+}
+
+
+
+/*-------------------------------- FOOTER ----------------------------------------*/
+ 
+ .footer{
+ 	background-color: black;
+    margin-top: 200px;
+ }
+ .copywrite{
+ 	color: #c8c8c8;
+ }
+ #comp{
+ 	color: white;
+ }
+ .footer a{
+ 	color: #c8c8c8;
+ }
+ .footer a:hover{
+ 	color: white;
+ }
+
+ .footer ul{
+ 	padding-top: 18px;
+ }
+

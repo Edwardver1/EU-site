@@ -1,0 +1,132 @@
+
+/*--------------------------------  TOP BAR ----------------------------------------*/
+
+.loginReg{
+	background-color: black;
+
+}
+.loginReg:hover {
+    background-color: grey;
+}
+.top-bar ul li {
+	background-color: white;
+	color: red;
+}
+.top-bar{
+	background-color: white;
+}
+.menu a{
+	color: black;
+}
+
+.dropdown-pane{
+	display: block;
+	width: 100%;
+}
+.collection{
+	border-bottom: 1px solid black; 
+	padding-left: 30px;
+	color: black;
+}
+
+.top-ul ul {
+	margin-bottom: 1px;
+}
+.top-ul li{
+  list-style: none;
+}
+.top-ul li a:hover{
+	color :grey;
+	border-bottom: solid 1px grey;
+}
+.modal-a{
+	color:black;
+}
+.modal-a:hover{
+	color: grey;
+}
+.top-bar-item:hover{
+	color: grey;
+}
+.inscription:hover{
+	color: grey;
+	border-bottom: 1px solid grey;
+}
+
+.inscription{
+	display: block;
+	margin-left: 70px;
+	width: 16%;
+}
+
+.password-head{
+	padding-bottom: 10px;
+	border-bottom: 1px solid grey;
+}
+
+
+/*-------------------------------- MAIN ORBIT ----------------------------------------*/
+.overlay-container {
+  position: relative;
+}
+
+.overlay-container .overlay-text {
+  position: absolute;
+  bottom: 100px;          
+  left: 70px;            
+  right: 0;           
+
+  /*padding: 0.4rem;
+  background-color: rgba(255, 255, 255, 0.7);*/
+}
+.overlay-container .overlay-button {
+  position: absolute; 
+  bottom: 35px;          
+  left: 70px;            
+  right: 0; 
+  width:8%;           
+}
+a.overlay-button{
+	background-color: black;
+}
+a.overlay-button:hover{
+	background-color: grey;
+}
+
+/*-------------------------------- CATEGORIES ----------------------------------------*/
+
+.image { 
+   position: relative; 
+   /*width: 100%;  for IE 6 */
+}
+h2 a { 
+   position: absolute; 
+   top: 60px; 
+   left: 150px; 
+   width: 100%;
+   color: black; 
+}
+h2 a:hover { 
+   color: grey; 
+}
+
+/*-------------------------------- FOOTER ----------------------------------------*/
+ 
+ .footer{
+ 	background-color: black;
+ }
+ .copywrite{
+ 	color: #c8c8c8;
+ }
+ #comp{
+ 	color: white;
+ }
+ .footer a{
+ 	color: #c8c8c8;
+ }
+ .footer a:hover{
+ 	color: white;
+ }
+
+
+

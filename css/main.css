@@ -1,0 +1,174 @@
+
+/*--------------------------------  TOP BAR ----------------------------------------*/
+
+.loginReg{
+	background-color: black;
+
+}
+.loginReg:hover {
+    background-color: grey;
+}
+.top-bar ul li {
+	background-color: white;
+	color: red;
+}
+.top-bar{
+	background-color: white;
+ 
+}
+.menu a{
+	color: black;
+}
+
+.dropdown-pane{
+	display: block;
+	width: 100%;
+}
+.collection{
+	border-bottom: 1px solid black; 
+	padding-left: 35px;
+	color: black;
+}
+
+.top-ul ul {
+	margin-bottom: 2px;
+}
+.top-ul li{
+  list-style: none;
+}
+.top-ul li a:hover{
+	color :grey;
+	border-bottom: solid 1px grey;
+}
+.modal-a{
+	color:black;
+}
+.modal-a:hover{
+	color: grey;
+}
+.top-bar-item:hover{
+	color: grey;
+}
+.inscription:hover{
+	color: grey;
+	border-bottom: 1px solid grey;
+}
+
+.img-with-text {
+    text-align: center;
+    
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
+
+.password-head{
+  padding-bottom: 10px;
+  border-bottom: 1px solid grey;
+}
+
+
+/*-------------------------------- MAIN ORBIT ----------------------------------------*/
+.overlay-container-lad {
+  position: relative; /* <-- Set as the reference for the positioned overlay */
+}
+
+/*.overlay-container-lad .overlay-text-lad {
+  position: absolute; 
+  bottom: 200px;          
+  left: 70px;            
+  right: 0; 
+  font-size: 400%;         
+
+}
+.overlay-container-lad .overlay-text-style {
+  position: absolute; 
+  bottom: 140px;          
+  left: 95px;            
+  right: 0; 
+  font-size: 400%;         
+
+}*/
+/*.overlay-container-lad .overlay-button {
+  position: relative; 
+  bottom: 170px;          
+  left: 140px;            
+  right: 0; 
+  width:8%;
+  background-color: black;           
+}*/
+
+.overlay-container-men {
+  position: relative; /* <-- Set as the reference for the positioned overlay */
+}
+
+/*.overlay-container-men .overlay-text-men {
+  position: absolute; 
+  bottom: 250px;          
+  left: 30px;            
+  right: 0; 
+  font-size: 280%;         
+}*/
+
+/*.overlay-container-men .overlay-button {
+  position: absolute; 
+  bottom: 174px;          
+  left: 77px;            
+  right: 0; 
+  width:8%;           
+}*/
+
+a.overlay-button{
+	background-color: black;
+}
+a.overlay-button:hover{
+	background-color: grey;
+}
+
+/*-------------------------------- CATEGORIES ----------------------------------------*/
+
+.image { 
+   position: relative; 
+   /*width: 100%;  */
+}
+h2 a { 
+   position: absolute; 
+   top: 60px; 
+   left: 150px; 
+   width: 100%;
+   color: black; 
+}
+h2 a:hover { 
+   color: grey; 
+}
+/*.big-main{
+  height:1300px;
+}*/
+
+/*-------------------------------- FOOTER ----------------------------------------*/
+ 
+ .footer{
+ 	background-color: black;
+  /*margin-top: 150px;*/
+ }
+ .copywrite{
+ 	color: #c8c8c8;
+ }
+ #comp{
+ 	color: white;
+ }
+ .footer a{
+ 	color: #c8c8c8;
+ }
+ .footer a:hover{
+ 	color: white;
+ }
+
+ .footer ul{
+ 	padding-top: 18px;
+ }
+
+
+
